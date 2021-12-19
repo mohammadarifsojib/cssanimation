@@ -1,0 +1,174 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	#contact .contact-inner{
+		margin: 0 40px;
+	}
+	#contact .contact-inner .contact-info{
+		width: 45%;
+	}
+	#banner .banner-inner .banner-content .btn{
+		max-width: 70%;
+		width: 100%;
+	}
+}
+@media (max-width: 992px){
+	.common-title{
+		max-width: 80%;
+	}
+	.common-title h2{
+		font-size: 1.8em;
+	}
+	#banner .banner-inner .banner-content{
+		max-width: 100%;
+		width: 100%;
+		text-align: center
+	}
+	#banner .banner-inner .banner-content .btn{
+		margin: 0 auto;
+		margin-top: 30px;
+		max-width: 100%;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
+	}
+	#banner .banner-inner .banner-img{
+		display: none
+	}
+	#services #service-items .single-service-box{
+		max-width: 45%;
+		width: 100%;
+		min-height: 380px;
+	}
+	#services #service-items .service-row-three{
+		margin-bottom: 50px
+	}
+	#services #service-items .service-row-three:last-child{
+		margin-bottom: 0
+	}
+	.team-items .single-team-member, #pricing .pricing-tbls .single-pricing-list{
+		max-width: 45%;
+		width: 100%;
+	}
+	.team-items .team-row-two{
+		margin-top: 40px;
+		margin-bottom: 0
+	}
+	.team-items .team-row-three{
+		margin: 20px 0;
+	}
+	.team-items .team-row-three:last-child{
+		margin: 0;
+	}
+	#pricing .pricing-tbls .pricing-row-one {
+		padding: 30px 0;
+	}
+	#pricing .pricing-tbls #ribbon-tbl {
+		padding: 30px 0;
+	}
+	#testimonial .testimonial-list .testi-row-one{
+		display: none	
+	}
+	#testimonial .testimonial-list .testi-row-two{
+		max-width: 45%;
+		width: 100%;
+		padding: 15px 0;
+	}
+	#contact .contact-inner{
+		margin: 0 30px;
+	}
+	#contact .contact-inner .contact-info{
+		-webkit-box-ordinal-group: 3;
+		    -ms-flex-order: 2;
+		        order: 2;
+		width: 100%;
+		margin: 0 30px;
+		margin-top: 40px;
+	}
+	#contact .contact-inner .contact-form{
+		-webkit-box-ordinal-group: 2;
+		    -ms-flex-order: 1;
+		        order: 1;
+		width: 100%;
+	}
+}
+@media (max-width: 680px){
+	.mobile-menu .menu-icon{
+		margin-right: 40px;
+	}
+	#services #service-items .single-service-box{
+		max-width: 100%;
+		width: 100%;
+		height: 350px;
+	}
+	#services #service-items .single-service-box{
+		margin-bottom: 30px
+	}
+	#services #service-items .service-row-three{
+		margin-bottom: 30px
+	}
+	#services #service-items .service-row-three:last-child{
+		margin-bottom: 0
+	}
+	#services #service-items .service-row-two{
+		margin: 15px 0;
+	}
+	#services #service-items .service-row-three .flip-card .flip-card-inner .flip-card-front, #services #service-items .service-row-three .flip-card .flip-card-inner .flip-card-back{
+		padding: 0 30px;
+	}
+	.team-items .single-team-member,#pricing .pricing-tbls .single-pricing-list{
+		max-width: 100%;
+		width: 100%;
+	}
+	#pricing .pricing-tbls .pricing-row-one .plan-list ul{
+		padding-left: 100px
+	}
+	.team-items .team-row-three .team-box .content{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		margin-top: 30px;
+	}
+	.team-items .team-row-two{
+		margin-top: 40px;
+		margin-bottom: 0
+	}
+	.team-items .team-row-three{
+		margin: 20px 0;
+	}
+	.team-items .team-row-three:last-child{
+		margin-top: 30px;
+	}
+
+	#testimonial .testimonial-list .testi-row-two{
+		max-width: 100%;
+		width: 100%;
+		padding: 15px 0;
+	}
+	#testimonial .testimonial-list .testi-row-one{
+		display: none	
+	}
+}
+@media (max-width: 550px){
+	#pricing .pricing-tbls .pricing-row-one .plan-list ul{
+		padding-left: 10px
+	}
+}
+@media (max-width: 880px){
+	.main-menu{
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+	header nav{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+
+}
